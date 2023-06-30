@@ -11,10 +11,15 @@ Se plantea utilizar las siguientes tecnologias:
 </div>
 
 ## Todo
-- [ ] Foto en Banner
-- [ ] Musica?
-- [ ] Cuenta regresiva
-- [ ] Direccion
-- [ ] Codigo de vestimenta
+- [ ] SEO 
+- [ ] Preview
+
+# Estructura
+
+- [ ] Imagen del @Giugas
+- [x] Cuenta regresiva
+- [ ] Direccion	
+- [ ] Codigo de vestimenta ?
 - [ ] Asistencia
-- [ ] Sub-task or description  
+- [ ] Footer (Made with <3 by @NatxioDev)
+

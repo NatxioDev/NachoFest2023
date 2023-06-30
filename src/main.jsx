@@ -1,9 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { ChakraProvider } from "@chakra-ui/react";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+import "./index.css";
+// import Header from "./components/Header.jsx";
+import Countdown from "./components/Countdown.jsx";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <h1 className="text-3xl font-bold underline text-center">Hola Mundo</h1>
-  </React.StrictMode>,
-)
+    <ChakraProvider>
+      <Countdown />
+    </ChakraProvider>
+  </React.StrictMode>
+);
