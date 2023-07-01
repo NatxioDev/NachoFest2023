@@ -7,6 +7,8 @@ import {
   CardBody,
   GridItem,
   Text,
+  Box,
+  CardHeader,
 } from "@chakra-ui/react";
 
 function Countdown() {
@@ -26,10 +28,20 @@ function Countdown() {
     today = new Date();
     difference = birthdayDate - today;
 
-    setDay(Math.floor(difference / (1000 * 60 * 60 * 24)));
-    setHour(Math.floor((difference / (1000 * 60 * 60)) % 24));
-    setMinute(Math.floor((difference / 1000 / 60) % 60));
-    setSecond(Math.floor((difference / 1000) % 60));
+    let day = Math.floor(difference / (1000 * 60 * 60 * 24));
+    let hour = Math.floor((difference / (1000 * 60 * 60)) % 24);
+    let minute = Math.floor((difference / 1000 / 60) % 60);
+    let second = Math.floor((difference / 1000) % 60);
+
+    if (day < 10) day = "0" + day;
+    if (hour < 10) hour = "0" + hour;
+    if (minute < 10) minute = "0" + minute;
+    if (second < 10) second = "0" + second;
+
+    setDay(day);
+    setHour(hour);
+    setMinute(minute);
+    setSecond(second);
   };
 
   useEffect(() => {
@@ -43,24 +55,53 @@ function Countdown() {
 
   return (
     <ScaleFade direction="top" in={true}>
-      <Card align={"center"} background={"#333"} mx={[1, 10, 100, 400]} my={[1, 5]}>
+      <Card
+        align={"center"}
+        background={"#f15a24"}
+        mx={[5, 10, 100, 400]}
+        my={[1, 5]}
+      >
+        <CardHeader marginBottom={"-20px"}>
+          <Text fontSize={["xl", "xl", "3xl", "3xl"]} fontWeight={"bold"} color={"#fff"}>
+            22 de Julio del 2023 | 15:00Hr
+          </Text>
+        </CardHeader>
         <CardBody color={"#fff"}>
-          <Grid templateColumns="repeat(4, 1fr)" gap={10}>
+          <Grid templateColumns="repeat(4, 1fr)" gap={[5, 10]}>
             <GridItem align="center">
-              <Button cursor={"default"}>{day}</Button>
-              <Text>Días</Text>
+              <Box>
+                <Button fontWeight={"bold"} cursor={"default"}>
+                  {day}
+                </Button>
+                <Text>
+                  <strong>Días</strong>
+                </Text>
+              </Box>
             </GridItem>
             <GridItem align="center">
-              <Button cursor={"default"}>{hour}</Button>
-              <Text>Horas</Text>
+              <Button fontWeight={"bold"} cursor={"default"}>
+                {hour}
+              </Button>
+              <Text>
+                <strong>Horas</strong>
+              </Text>
             </GridItem>
             <GridItem align="center">
-              <Button cursor={"default"}>{minute}</Button>
-              <Text>Minutos</Text>
+              <Button fontWeight={"bold"} cursor={"default"}>
+                {minute}
+              </Button>
+              <Text>
+                <strong>Minutos</strong>
+              </Text>
             </GridItem>
             <GridItem align="center">
-              <Button cursor={"default"}> {second}</Button>
-              <Text>Segundo(s)</Text>
+              <Button fontWeight={"bold"} cursor={"default"}>
+                {" "}
+                {second}
+              </Button>
+              <Text>
+                <strong>Segundo(s)</strong>
+              </Text>
             </GridItem>
           </Grid>
         </CardBody>
