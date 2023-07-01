@@ -1,14 +1,4 @@
-import {
-  Card,
-  CardHeader,
-  Heading,
-  CardBody,
-  CardFooter,
-  Button,
-  Text,
-  Center,
-} from "@chakra-ui/react";
-import { motion } from "framer-motion";
+import { Card, Heading, Button, Text, Center } from "@chakra-ui/react";
 
 function Maps() {
   return (
@@ -34,7 +24,11 @@ function Maps() {
           align={"center"}
           colorScheme="blue"
           marginTop={"15px"}
-          _hover={{ background: "#333", color: "#f15a24", border: "1px solid #f15a24" }}
+          _hover={{
+            background: "#333",
+            color: "#f15a24",
+            border: "1px solid #f15a24",
+          }}
         >
           Ver Mapa
         </Button>
