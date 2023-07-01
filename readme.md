@@ -13,10 +13,11 @@ Se plantea utilizar las siguientes tecnologias:
 ## Todo
 - [ ] SEO 
 - [ ] Preview
+- [ ] Cambiar a TailwindCSS
 
 # Estructura
 
-- [ ] Imagen del @Giugas
+- [x] Imagen del @Giugas
 - [x] Cuenta regresiva
 - [ ] Direccion	
 - [ ] Codigo de vestimenta ?
