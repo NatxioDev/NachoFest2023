@@ -1,14 +1,29 @@
-import { Card, CardBody, Slide } from "@chakra-ui/react";
+import { Image, Center, SimpleGrid, ScaleFade } from "@chakra-ui/react";
+import { motion } from "framer-motion";
+
+import NameBanner from "../assets/NachoFest.svg";
+import NachoKukis from "../assets/NachoKukis.png";
 
 function Header() {
   return (
-    <Slide direction='top' in={true}>
-      <Card background={"#333"} m={100}>
-        <CardBody color={"#fff"}>
-          <h1>View a summary of all your customers over the last month.</h1>
-        </CardBody>
-      </Card>
-    </Slide>
+    <>
+      <Center>
+        <SimpleGrid columns={1}>
+          <ScaleFade in={true} align={"center"}>
+            <Center align={"center"}>
+              <div>
+                <Image src={NachoKukis} width={[500, 500]} />
+                <Image
+                  src={NameBanner}
+                  width={[300, 500, 500, 700]}
+                  marginTop={-150}
+                ></Image>
+              </div>
+            </Center>
+          </ScaleFade>
+        </SimpleGrid>
+      </Center>
+    </>
   );
 }
 
