@@ -5,7 +5,7 @@ const theme = extendTheme({
   styles: {
     global: (props) => ({
       body: {
-        bg: mode("#313131","#333")(props),
+        bg: mode("#1d1d1d","#333")(props),
       }
     })
   },

@@ -1,5 +1,4 @@
-import { Image, Center, SimpleGrid, ScaleFade } from "@chakra-ui/react";
-import { motion } from "framer-motion";
+import { Image, Center, SimpleGrid, ScaleFade, Text } from "@chakra-ui/react";
 
 import NameBanner from "../assets/NachoFest.svg";
 import NachoKukis from "../assets/NachoKukis.png";
@@ -12,6 +11,13 @@ function Header() {
           <ScaleFade in={true} align={"center"}>
             <Center align={"center"}>
               <div>
+                <Text
+                  fontSize={["3xl", "6xl", "6xl", "7xl"]}
+                  my={"10"}
+                  color={"white"}
+                >
+                  <strong>ESTAS INVITADO A</strong>
+                </Text>
                 <Image src={NachoKukis} width={[500, 500]} />
                 <Image
                   src={NameBanner}

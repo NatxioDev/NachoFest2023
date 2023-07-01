@@ -20,6 +20,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <br />
       <br />
       <Asistance />
+      <br />
+      <hr></hr>
       <Footer />
     </ChakraProvider>
   </React.StrictMode>
