@@ -19,7 +19,7 @@ function Header() {
                   color={"white"}
                   fontFamily={"Montserrat, sans-serif"}
                 >
-                  <strong>ESTAS INVITADO A</strong>
+                  <strong>ESTAS INVITADO AL</strong>
                 </Text>
                 <Image src={NachoKukis} width={[500, 500]} />
                 <Image

@@ -10,11 +10,14 @@ import Maps from "./components/Maps.jsx";
 import Footer from "./components/Footer.jsx";
 import Asistance from "./components/Asistance";
 import Rules from "./components/Rules";
+import BodyC from "./components/BodyC";
+import Loading from "./components/Loading";
 // const helmetContext = {};
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
       <ChakraProvider theme={theme}>
+        <Loading />
         <Header />
         <Countdown />
         <br />
@@ -24,6 +27,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <hr></hr>
         <br />
         <Rules />
+        <br />
+
+        <BodyC />
+
+        <br />
 
         <br />
         <Asistance />
