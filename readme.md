@@ -14,13 +14,18 @@ Se plantea utilizar las siguientes tecnologias:
 - [ ] SEO 
 - [ ] Preview
 - [ ] Cambiar a TailwindCSS
+- [ ] Add Calendar ics button
+- [ ] Add more rules
+- [ ] Add more info
+- [ ] Add "Que se repita"
+- [ ] Add SFX using [use-sound]
 
 # Estructura
 
 - [x] Imagen del @Giugas
 - [x] Cuenta regresiva
-- [ ] Direccion	
+- [x] Direccion	
 - [ ] Codigo de vestimenta ?
-- [ ] Asistencia
-- [ ] Footer (Made with <3 by @NatxioDev)
+- [x] Asistencia
+- [x] Footer (Made with <3 by @NatxioDev)
 

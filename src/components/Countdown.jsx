@@ -3,6 +3,7 @@ import {
   Button,
   ScaleFade,
   Card,
+  Center,
   Grid,
   CardBody,
   GridItem,
@@ -10,6 +11,8 @@ import {
   Box,
   CardHeader,
 } from "@chakra-ui/react";
+
+import { AddToCalendarButton } from "add-to-calendar-button-react";
 
 function Countdown() {
   const birthdayDate = new Date(2023, 6, 22, 15, 0, 0);
@@ -62,15 +65,25 @@ function Countdown() {
         my={[1, 5]}
       >
         <CardHeader marginBottom={"-20px"}>
-          <Text fontSize={["xl", "xl", "3xl", "3xl"]} fontWeight={"bold"} color={"#fff"}>
-            22 de Julio del 2023 | 15:00Hr
+          <Text
+            fontSize={["xl", "xl", "3xl", "3xl"]}
+            fontWeight={"bold"}
+            color={"#fff"}
+            fontFamily={"Montserrat"}
+          >
+            22/07/2023 15:00HRS
           </Text>
         </CardHeader>
         <CardBody color={"#fff"}>
-          <Grid templateColumns="repeat(4, 1fr)" gap={[5, 10]}>
+          <Grid templateColumns="repeat(4, 1fr)" gap={[5, 5]}>
             <GridItem align="center">
               <Box>
-                <Button fontWeight={"bold"} cursor={"default"}>
+                <Button
+                  fontSize={["xl", "2xl"]}
+                  fontWeight={"bold"}
+                  cursor={"default"}
+                  fontFamily={"Montserrat, sans-serif"}
+                >
                   {day}
                 </Button>
                 <Text>
@@ -79,7 +92,12 @@ function Countdown() {
               </Box>
             </GridItem>
             <GridItem align="center">
-              <Button fontWeight={"bold"} cursor={"default"}>
+              <Button
+                fontSize={["xl", "2xl"]}
+                fontWeight={"bold"}
+                cursor={"default"}
+                fontFamily={"Montserrat, sans-serif"}
+              >
                 {hour}
               </Button>
               <Text>
@@ -87,7 +105,12 @@ function Countdown() {
               </Text>
             </GridItem>
             <GridItem align="center">
-              <Button fontWeight={"bold"} cursor={"default"}>
+              <Button
+                fontSize={["xl", "2xl"]}
+                fontWeight={"bold"}
+                cursor={"default"}
+                fontFamily={"Montserrat, sans-serif"}
+              >
                 {minute}
               </Button>
               <Text>
@@ -95,7 +118,12 @@ function Countdown() {
               </Text>
             </GridItem>
             <GridItem align="center">
-              <Button fontWeight={"bold"} cursor={"default"}>
+              <Button
+                fontSize={["xl", "2xl"]}
+                fontWeight={"bold"}
+                cursor={"default"}
+                fontFamily={"Montserrat, sans-serif"}
+              >
                 {" "}
                 {second}
               </Button>
@@ -104,6 +132,22 @@ function Countdown() {
               </Text>
             </GridItem>
           </Grid>
+          <Center mt={5}>
+            <AddToCalendarButton
+              name="NachoFest 2023"
+              startDate="2023-07-22"
+              startTime="15:00"
+              endTime="23:59"
+              timeZone="America/La_Paz"
+              location="World Wide Web"
+              options="'Google','Apple'"
+              buttonStyle="flat"
+              trigger="click"
+              buttonsList
+              label="Agregar al calendario"
+              language="es"
+            ></AddToCalendarButton>
+          </Center>
         </CardBody>
       </Card>
     </ScaleFade>
