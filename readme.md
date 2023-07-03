@@ -11,11 +11,11 @@ Se plantea utilizar las siguientes tecnologias:
 </div>
 
 ## Todo
-- [ ] SEO 
-- [ ] Preview
+
+- [ ] Preview OG
 - [ ] Cambiar a TailwindCSS
-- [ ] Add Calendar ics button
-- [ ] Add more rules
+- [x] Add Calendar ics button
+- [x] Add more rules
 - [ ] Add more info
 - [ ] Add "Que se repita"
 - [ ] Add SFX using [use-sound]
