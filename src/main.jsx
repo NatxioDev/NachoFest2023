@@ -10,13 +10,11 @@ import Maps from "./components/Maps.jsx";
 import Footer from "./components/Footer.jsx";
 import Asistance from "./components/Asistance";
 import Rules from "./components/Rules";
-import SEO from "./components/SEO";
-
+// const helmetContext = {};
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
       <ChakraProvider theme={theme}>
-        <SEO />
         <Header />
         <Countdown />
         <br />

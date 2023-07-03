@@ -2,10 +2,12 @@ import { Image, Center, SimpleGrid, ScaleFade, Text } from "@chakra-ui/react";
 
 import NameBanner from "../assets/NachoFest.svg";
 import NachoKukis from "../assets/NachoDuko.png";
+import SEO from "./SEO";
 
 function Header() {
   return (
     <>
+      <SEO />
       <Center>
         <SimpleGrid columns={1}>
           <ScaleFade in={true} align={"center"}>
