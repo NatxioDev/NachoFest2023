@@ -28,7 +28,11 @@ function Rules() {
       <Grid templateColumns={["repeat(1, 1fr)", "repeat(2, 1fr)"]} gap={6}>
         <RuleCard
           rule={"Sin Malacopear"}
-          description={"*Bueno quizas un poco"}
+          description={"*Opcional"}
+        />
+        <RuleCard
+          rule={"Besar al cumpleañero"}
+          description={"*Obligatorio"}
         />
         <RuleCard
           rule={"Se puntual"}
