@@ -12,11 +12,12 @@ Se plantea utilizar las siguientes tecnologias:
 
 ## Todo
 
-- [ ] Preview OG
-- [ ] Cambiar a TailwindCSS
+- [X] Preview OG
+<!-- - [ ] Cambiar a TailwindCSS -->
 - [x] Add Calendar ics button
 - [x] Add more rules
-- [ ] Add more info
+- [X] Add more info
+- [ ] Scrolling Animation
 - [ ] Add "Que se repita"
 - [ ] Add SFX using [use-sound]
 
