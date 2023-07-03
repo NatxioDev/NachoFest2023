@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 function Asistance() {
   return (
     <Center>
-      <Text color={"white"}>Confirma tu asistencia:</Text>
+      <Text fontSize='xl' fontFamily={"system-ui"} color={"white"}>Confirma tu asistencia:</Text>
       <Button
         as={"a"}
         href="https://api.whatsapp.com/send?phone=59169766811&text=Confirmo%20asistencia%20%3A)"

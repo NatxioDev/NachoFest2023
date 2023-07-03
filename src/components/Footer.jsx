@@ -12,6 +12,7 @@ const singaniLogo =
 
 const spotifyLogo =
   "https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png";
+
 function Footer() {
   return (
     <Container as="footer" role="contentinfo" py={{ base: "12", md: "16" }}>
@@ -23,7 +24,7 @@ function Footer() {
           <Image src={spotifyLogo} width={100} />
           <Image src={ssj} width={50} />
         </Stack>
-        <Text color="#fff" fontSize="sm">
+        <Text color="#fff" fontSize="sm" fontFamily={"Montserrat, sans-serif"}>
           &copy; {new Date().getFullYear()} Made with ❤️ by{" "}
           <Link color="teal.500" href="https://www.instagram.com/nacho.svg">
             @Nacho

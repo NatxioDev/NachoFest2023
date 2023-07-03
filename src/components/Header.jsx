@@ -1,7 +1,7 @@
 import { Image, Center, SimpleGrid, ScaleFade, Text } from "@chakra-ui/react";
 
 import NameBanner from "../assets/NachoFest.svg";
-import NachoKukis from "../assets/NachoKukis.png";
+import NachoKukis from "../assets/NachoDuko.png";
 
 function Header() {
   return (
@@ -13,8 +13,9 @@ function Header() {
               <div>
                 <Text
                   fontSize={["3xl", "6xl", "6xl", "7xl"]}
-                  my={"10"}
+                  mt={"10"}
                   color={"white"}
+                  fontFamily={"Montserrat, sans-serif"}
                 >
                   <strong>ESTAS INVITADO A</strong>
                 </Text>

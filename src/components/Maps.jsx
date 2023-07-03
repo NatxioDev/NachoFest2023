@@ -1,5 +1,7 @@
 import { Card, Heading, Button, Text, Center } from "@chakra-ui/react";
 
+import { FaMapMarkedAlt } from "react-icons/fa";
+
 function Maps() {
   return (
     <Center>
@@ -12,11 +14,12 @@ function Maps() {
         border={"1px solid #f15a24"}
         color={"white"}
       >
-        <Heading size="md" align="center">
+        <Heading size="md" align="center" fontFamily={"Montserrat, sans-serif"}>
           Dirección
         </Heading>
-        <Text>Obrajes. Entre Calle 12 y 13 #50709</Text>
-
+        <Text fontFamily={"Montserrat, sans-serif"} align={"center"}>
+          Calle Hector Ormachea Entre Calle 12 y 13 de Obrajes #5906
+        </Text>
         <Button
           as={"a"}
           href="https://goo.gl/maps/RPvVfPsTx8cXkVnEA"
@@ -29,6 +32,7 @@ function Maps() {
             color: "#f15a24",
             border: "1px solid #f15a24",
           }}
+          leftIcon={<FaMapMarkedAlt />}
         >
           Ver Mapa
         </Button>
