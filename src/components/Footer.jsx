@@ -17,14 +17,14 @@ function Footer() {
   return (
     <Container as="footer" role="contentinfo" py={{ base: "12", md: "16" }}>
       <Stack spacing={{ base: "4", md: "5" }}>
-        <Stack justify="space-between" direction="row" align="center">
+        <Stack justify="space-between" direction="row" align="center" >
           <Image src={fernetBrancaLogo} width={50} />
           <Image src={singaniLogo} width={50} />
-          <Image src={tgs} width={50} />
           <Image src={spotifyLogo} width={100} />
+          <Image src={tgs} width={50} />
           <Image src={ssj} width={50} />
         </Stack>
-        <Text color="#fff" fontSize="sm" fontFamily={"Montserrat, sans-serif"}>
+        <Text align={"center"} color="#fff" fontSize="sm" fontFamily={"Montserrat, sans-serif"}>
           &copy; {new Date().getFullYear()} Made with ❤️ by{" "}
           <Link color="teal.500" href="https://www.instagram.com/nacho.svg">
             @Nacho

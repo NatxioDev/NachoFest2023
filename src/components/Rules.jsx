@@ -23,7 +23,7 @@ function Rules() {
       </Text>
       <Grid templateColumns={["repeat(1, 1fr)", "repeat(2, 1fr)"]} gap={6}>
         <RuleCard
-          rule={"Sin Malacopear"}
+          rule={"Sin malacopear"}
           description={"*Opcional"}
           image={yuca}
           imageSize={"100px"}
@@ -44,7 +44,7 @@ function Rules() {
         />
         <RuleCard
           rule={"Traen cariño/regalo"}
-          description={"O no me quieren?"}
+          description={"¿O no me quieren?"}
           image={chemsad}
           imageSize={"150px"}
           margin={-8}

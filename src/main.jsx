@@ -21,6 +21,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Header />
         <Countdown />
         <br />
+        <hr></hr>
+        <br />
         <Maps />
         <br />
 

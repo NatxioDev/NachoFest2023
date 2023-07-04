@@ -5,12 +5,13 @@ import goteo from "../assets/sounds/goteo.mp3";
 import { FaWhatsapp } from "react-icons/fa";
 
 function Asistance() {
+  // eslint-disable-next-line no-unused-vars
   const [playbackRate, setPlaybackRate] = React.useState(1);
   const [isLoading, setIsLoaded] = React.useState(false);
 
   const [play] = useSound(goteo, {
     playbackRate,
-    volume: 0.5,
+    volume: 1,
   });
 
   const handleClick = () => {

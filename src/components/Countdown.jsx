@@ -70,6 +70,15 @@ function Countdown() {
             fontWeight={"bold"}
             color={"#fff"}
             fontFamily={"Montserrat"}
+            align={"center"}
+          >
+            FECHA:
+          </Text>
+          <Text
+            fontSize={["l", "l", "2xl", "2xl"]}
+            fontWeight={"bold"}
+            color={"#fff"}
+            fontFamily={"Montserrat"}
           >
             22/07/2023 15:00HRS
           </Text>
@@ -82,7 +91,7 @@ function Countdown() {
                   fontSize={["xl", "2xl"]}
                   fontWeight={"bold"}
                   cursor={"default"}
-                  fontFamily={"Montserrat, sans-serif"}
+                  fontFamily={"montserrat, sans-serif"}
                 >
                   {day}
                 </Button>
@@ -139,11 +148,10 @@ function Countdown() {
               startTime="15:00"
               endTime="23:59"
               timeZone="America/La_Paz"
-              location="World Wide Web"
-              options="'Google','Apple'"
+              location="Calle Hector Ormachea Entre Calle 13 y 14 de Obrajes #5906"
+              options="'Google'"
               buttonStyle="flat"
               trigger="click"
-              buttonsList
               label="Agregar al calendario"
               language="es"
             ></AddToCalendarButton>

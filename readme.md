@@ -18,15 +18,15 @@ Se plantea utilizar las siguientes tecnologias:
 - [x] Add more rules
 - [X] Add more info
 - [ ] Scrolling Animation
-- [ ] Add "Que se repita"
-- [ ] Add SFX using [use-sound]
+- [x] Add "Que se repita"
+- [x] Add SFX using [use-sound]
 
 # Estructura
 
 - [x] Imagen del @Giugas
 - [x] Cuenta regresiva
 - [x] Direccion	
-- [ ] Codigo de vestimenta ?
+- [x] Codigo de vestimenta ?
 - [x] Asistencia
 - [x] Footer (Made with <3 by @NatxioDev)
 

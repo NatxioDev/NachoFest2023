@@ -17,15 +17,20 @@ function Header() {
                   fontSize={["3xl", "6xl", "6xl", "7xl"]}
                   mt={"10"}
                   color={"white"}
-                  fontFamily={"Montserrat, sans-serif"}
+                  fontFamily={"Titillium Web, Montserrat, sans-serif"}
                 >
-                  <strong>ESTAS INVITADO AL</strong>
+                  <strong>ESTÁS INVITADO AL</strong>
                 </Text>
-                <Image src={NachoKukis} width={[500, 500]} />
+                <Image
+                  src={NachoKukis}
+                  width={[500, 500]}
+                  style={{ zIndex: 1 }}
+                />
                 <Image
                   src={NameBanner}
                   width={[300, 500, 500, 700]}
                   marginTop={-150}
+                  style={{ zIndex: 10 }}
                 ></Image>
               </div>
             </Center>
