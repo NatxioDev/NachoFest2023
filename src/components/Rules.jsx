@@ -3,7 +3,7 @@ import { Container, Grid, Text } from "@chakra-ui/react";
 import RuleCard from "./RuleCard";
 
 import chemsad from "../assets/3zdlcl.webp";
-import catkiss from "../assets/catkiss.gif";
+
 import yuca from "../assets/yuca.png";
 import ana from "../assets/ana.png";
 import pedro from "../assets/pedro.png";
@@ -31,7 +31,7 @@ function Rules() {
         <RuleCard
           rule={"Besar al cumpleañero"}
           description={"*Obligatorio"}
-          image={catkiss}
+          image={"https://i.giphy.com/media/3oz8xsaLjLVqVXr3tS/giphy.webp"}
           imageSize={"100px"}
           margin={0}
         />
