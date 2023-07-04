@@ -19,7 +19,7 @@ function Header() {
                   color={"white"}
                   fontFamily={"Titillium Web, Montserrat, sans-serif"}
                 >
-                  <strong>ESTÁS INVITADO AL</strong>
+                  <strong>ESTÁS INVITAD@ AL</strong>
                 </Text>
                 <Image
                   src={NachoKukis}

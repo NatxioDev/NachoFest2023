@@ -20,7 +20,7 @@ function Maps() {
         </Heading>
         <Image src={casa} marginY={2} rounded={5} width={["100%", "80%"]} />
         <Text fontFamily={"Montserrat, sans-serif"} align={"center"}>
-          Calle Hector Ormachea Entre Calle 13 y 14 de Obrajes #5906
+          Calle Hector Ormachea entre Calle 13 y 14 de Obrajes #5906
         </Text>
         <Button
           as={"a"}

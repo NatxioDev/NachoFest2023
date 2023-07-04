@@ -13,6 +13,7 @@ function BodyC() {
         fontWeight={"600"}
       >
         #QueSeRepita2.0
+        #YaSupiste
       </Text>
       <Center>
         <Image src={queSeRepita} width={200}></Image>

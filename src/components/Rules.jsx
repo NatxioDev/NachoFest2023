@@ -56,13 +56,13 @@ function Rules() {
           imageSize={"100px"}
           margin={0}
         />
-        <RuleCard
+        {/* <RuleCard
           rule={"Sin desconocerse"}
           description={"Esta va pal Pedro"}
           image={pedro}
           imageSize={"100px"}
           margin={0}
-        />
+        /> */}
       </Grid>
     </Container>
   );
