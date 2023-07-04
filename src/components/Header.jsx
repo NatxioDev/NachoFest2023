@@ -1,7 +1,7 @@
 import { Image, Center, SimpleGrid, ScaleFade, Text } from "@chakra-ui/react";
 
 import NameBanner from "../assets/NachoFest.svg";
-import NachoKukis from "../assets/NachoDuko.png";
+import NachoKukis from "../assets/NachoDuko.webp";
 import SEO from "./SEO";
 
 function Header() {

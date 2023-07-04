@@ -1,6 +1,6 @@
 import { Container, Text, Image, Center } from "@chakra-ui/react";
 
-import queSeRepita from "../assets/queSeRepita.gif";
+import queSeRepita from "../assets/queserepita.gif";
 
 function BodyC() {
   return (
