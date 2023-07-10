@@ -23,6 +23,13 @@ function Rules() {
       </Text>
       <Grid templateColumns={["repeat(1, 1fr)", "repeat(2, 1fr)"]} gap={6}>
         <RuleCard
+          rule={"Traen su regalo en litros"}
+          description={"*Obligatorio"}
+          image={ana}
+          imageSize={"100px"}
+          margin={0}
+        />
+        <RuleCard
           rule={"Sin malacopear"}
           description={"*Opcional"}
           image={yuca}
@@ -38,17 +45,11 @@ function Rules() {
         <RuleCard
           rule={"Sé puntual"}
           description={"Te igualas si llegas tarde, ni modo"}
-          image={ana}
-          imageSize={"100px"}
-          margin={0}
-        />
-        <RuleCard
-          rule={"Traen cariño/regalo"}
-          description={"¿O no me quieren?"}
           image={chemsad}
           imageSize={"150px"}
           margin={-8}
         />
+
         <RuleCard
           rule={"Invitación personal"}
           description={"Avisen si traen a alguien más"}
@@ -57,8 +58,8 @@ function Rules() {
           margin={0}
         />
         {/* <RuleCard
-          rule={"Sin desconocerse"}
-          description={"Esta va pal Pedro"}
+          rule={"Sin hacer webadas"}
+          description={"Esta va pal Llanqui y el Giugas"}
           image={pedro}
           imageSize={"100px"}
           margin={0}

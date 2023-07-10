@@ -61,10 +61,10 @@ function Countdown() {
       <Card
         align={"center"}
         background={"#f15a24"}
-        mx={[5, 10, 100, 400]}
-        my={[1, 5]}
+        mx={["60px", "70px", "180px", "500px"]}
+        my={[4, 5]}
       >
-        <CardHeader marginBottom={"-20px"}>
+        <CardHeader>
           <Text
             fontSize={["xl", "xl", "3xl", "3xl"]}
             fontWeight={"bold"}
@@ -83,6 +83,14 @@ function Countdown() {
             22/07/2023 15:00HRS
           </Text>
         </CardHeader>
+      </Card>
+
+      <Card
+        align={"center"}
+        background={"#f15a24"}
+        mx={[5, 10, 100, 400]}
+        my={[1, 5]}
+      >
         <CardBody color={"#fff"}>
           <Grid templateColumns="repeat(4, 1fr)" gap={[5, 5]}>
             <GridItem align="center">
