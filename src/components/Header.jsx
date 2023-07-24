@@ -1,7 +1,7 @@
-import { Image, Center, SimpleGrid, ScaleFade, Text } from "@chakra-ui/react";
+import {  Center, SimpleGrid, ScaleFade, Text } from "@chakra-ui/react";
 
-import NameBanner from "../assets/NachoFest.svg";
-import NachoKukis from "../assets/NachoDuko.webp";
+// import NameBanner from "../assets/NachoFest.svg";
+// import NachoKukis from "../assets/NachoDuko.webp";
 import SEO from "./SEO";
 
 function Header() {
@@ -19,9 +19,9 @@ function Header() {
                   color={"white"}
                   fontFamily={"Titillium Web, Montserrat, sans-serif"}
                 >
-                  <strong>ESTÁS INVITAD@ AL</strong>
+                  <strong>¿2024?</strong>
                 </Text>
-                <Image
+                {/* <Image
                   src={NachoKukis}
                   width={[500, 500]}
                   style={{ zIndex: 1 }}
@@ -31,7 +31,7 @@ function Header() {
                   width={[300, 500, 500, 700]}
                   marginTop={-150}
                   style={{ zIndex: 10 }}
-                ></Image>
+                ></Image> */}
               </div>
             </Center>
           </ScaleFade>

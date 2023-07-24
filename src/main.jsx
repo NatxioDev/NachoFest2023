@@ -5,21 +5,21 @@ import theme from "../theme";
 import { HelmetProvider } from "react-helmet-async";
 import "./index.css";
 import Header from "./components/Header.jsx";
-import Countdown from "./components/Countdown.jsx";
-import Maps from "./components/Maps.jsx";
-import Footer from "./components/Footer.jsx";
-import Asistance from "./components/Asistance";
-import Rules from "./components/Rules";
-import BodyC from "./components/BodyC";
-import Loading from "./components/Loading";
+// import Countdown from "./components/Countdown.jsx";
+// import Maps from "./components/Maps.jsx";
+// import Footer from "./components/Footer.jsx";
+// import Asistance from "./components/Asistance";
+// import Rules from "./components/Rules";
+// import BodyC from "./components/BodyC";
+// import Loading from "./components/Loading";
 // const helmetContext = {};
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
       <ChakraProvider theme={theme}>
-        <Loading />
+        {/* <Loading /> */}
         <Header />
-        <Countdown />
+        {/* <Countdown />
         <br />
         <hr></hr>
         <br />
@@ -39,7 +39,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Asistance />
         <br />
         <hr></hr>
-        <Footer />
+        <Footer /> */}
       </ChakraProvider>
     </HelmetProvider>
   </React.StrictMode>
